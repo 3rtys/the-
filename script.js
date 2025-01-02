@@ -27,38 +27,136 @@ const books = [
         image: "images/book3.jpg",
         title: "A Modern Dance Of Death",
         tags: ["Germany,", "illustration,", "prints"],
-        link: "#link2"
+        link: "#link3"
     },
      {
         image: "images/book4.jpg",
         title: "Hoogspanning!!!",
         tags: ["Netherlands,", "illustration,", "poster"],
-        link: "#link2"
+        link: "#link4"
     },
      {
         image: "images/book5.jpg",
         title: "Vintage Safety",
         tags: ["netherland,", "illustration,", "empemera"],
-        link: "#link2"
+        link: "#link5"
     },
        {
         image: "images/book6.jpg",
         title: "One Thousand Daily Book Graphics",
         tags: ["book cover,", "illustration,", "blog"],
-        link: "#link2"
+        link: "#link6"
     },
        {
         image: "images/book7.jpg",
         title: "The Gods Of Japan",
         tags: ["japan,", "illustration,", "children's book"],
-        link: "#link2"
+        link: "#link7"
     },
        {
         image: "images/book8.jpg",
         title: "The Litlle Song That Ran Away",
         tags: ["lithuania,", "illustration,", "children's book"],
-        link: "#link2"
+        link: "#link8"
     },
+
+        {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+          {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics FEstival",
+        tags: ["comics,", "illustration,", "united states"],
+        link: "#link9"
+    },
+  
 
    
    
