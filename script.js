@@ -23,6 +23,24 @@ const books = [
         tags: ["Japan,", "illustration,", "childrens book"],
         link: "#link2"
     },
+     {
+        image: "images/book3.jpg",
+        title: "A Modern Dance Of Death",
+        tags: ["Germany,", "illustration,", "prints"],
+        link: "#link2"
+    },
+     {
+        image: "images/book4.jpg",
+        title: "Hoogspanning!!!",
+        tags: ["Netherlands,", "illustration,", "poster"],
+        link: "#link2"
+    },
+     {
+        image: "images/book5.jpg",
+        title: "Vintage Safety",
+        tags: ["netherland,", "illustration,", "empemera"],
+        link: "#link2"
+    },
 
    
    
