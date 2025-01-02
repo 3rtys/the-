@@ -12,13 +12,13 @@ function changeColor(clickedLink) {
 
 const books = [
     {
-        image: "C:\\Users\\ertys\\Desktop\\New folder\\book page\\images\\book1.jpg",
+        image: "images/book1.jpg",
         title: "Naoyuki Katoh SF Illustrations",
         tags: ["Japan,", "science fiction,", "illustration"],
         link: "#link1"
     },
     {
-        image: "C:\\Users\\ertys\\Desktop\\New folder\\book page\\images\\book2.jpg",
+        image: "images/book2.jpg",
         title: "Kozo Yokoi",
         tags: ["Japan,", "illustration,", "childrens book"],
         link: "#link2"
