@@ -20,7 +20,7 @@ const books = [
     {
         image: "images/book2.jpg",
         title: "Kozo Yokoi",
-        tags: ["Japan,", "illustration,", "childrens book"],
+        tags: ["Japan,", "illustration,", "children's book"],
         link: "#link2"
     },
      {
@@ -39,6 +39,24 @@ const books = [
         image: "images/book5.jpg",
         title: "Vintage Safety",
         tags: ["netherland,", "illustration,", "empemera"],
+        link: "#link2"
+    },
+       {
+        image: "images/book6.jpg",
+        title: "One Thousand Daily Book Graphics",
+        tags: ["book cover,", "illustration,", "blog"],
+        link: "#link2"
+    },
+       {
+        image: "images/book7.jpg",
+        title: "The Gods Of Japan",
+        tags: ["japan,", "illustration,", "children's book"],
+        link: "#link2"
+    },
+       {
+        image: "images/book8.jpg",
+        title: "The Litlle Song That Ran Away",
+        tags: ["lithuania,", "illustration,", "children's book"],
         link: "#link2"
     },
 
