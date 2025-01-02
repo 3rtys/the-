@@ -53,6 +53,109 @@ const books = [
         tags: ["japan,", "illustration,", "children's book"],
         link: "#link7"
     },
+           {
+        image: "images/book8.jpg",
+        title: "The Litlle Song That Ran Away",
+        tags: ["lithuania,", "illustration,", "children's book"],
+        link: "#link8"
+    },
+
+               {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
+                {
+        image: "images/book9.jpg",
+        title: "Brooklyn Comics And Graphics Festival",
+        tags: ["united states,", "illustration,", "comics"],
+        link: "#link8"
+    },
    
         
 
