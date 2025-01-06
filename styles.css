@@ -1,0 +1,526 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    min-height: 100vh; /* Ensure it spans full height */
+    
+    
+    
+
+
+   
+}
+
+
+
+
+/* HEADERRRRRRRR 
+    *********************************************************************************/
+
+
+.top-header {
+    width: auto;
+    max-width: none;
+    height: 100px;
+    background-color: #ffffff;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    
+}
+
+
+
+.nav-links {
+    justify-content: flex-start;
+    display: flex;
+    gap: 160px;
+    margin-left: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+
+}
+
+
+.nav-links a.active {
+    color: black;/
+}
+
+
+
+
+
+
+@media (max-width: 1024px)  {
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  /* Create two columns */
+        gap: 10px 100px;  /* Adjust space between links */
+        margin-left: 50;  /* Remove left margin */
+        margin-top: 20px;  /* Add top margin for spacing */
+    }
+
+    
+}
+
+
+
+
+/* left stripe 
+************************************************************************************/
+
+
+
+.left-stripe {
+    width: 100px;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+
+
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+
+}
+
+
+
+/* footer  
+************************************************************************************/
+
+
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 0;
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+    
+}
+
+
+.footer a {
+    text-decoration: underline;
+    color: #999999;
+    margin-right: 10px;
+    white-space: nowrap;
+
+}
+
+
+.footer span {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
+.search-bar {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    width: 180px;
+    margin-left: 550px;
+    border: 1px solid #999999;
+    outline: none;
+
+}
+
+.search-bar::placeholder {
+    color: #999999;
+
+}
+
+.search-bar:focus::placeholder {
+    visibility: hidden;
+}
+
+
+@media (max-width: 1024px) {
+    .footer {
+        flex-direction: column; /* Stack the elements vertically */
+        align-items: flex-start; /* Align them to the left */
+        padding: 10px; /* Adjust padding for better spacing */
+        font-size: 14px; /* Optional: Reduce font size for smaller screens */
+    }
+
+    .footer a,
+    .footer span,
+    .footer .search-bar {
+        margin-bottom: 10px; /* Space between elements */
+    }
+
+    .search-bar {
+        
+        margin-left: 0; /* Remove left margin */
+    }
+}
+
+
+
+/* MAINNNNNNNNNNNN *
+****************************************************************************************************/
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+    padding-right: 0px;
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    justify-items: start;
+    align-items: start;
+    padding-right: 0px;
+}
+
+
+
+.image-item {
+    border: 0px solid #b37777;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+     
+}
+
+.image-item:hover .image-title {
+    background: #ffff99;
+}
+
+
+/* Styling for the image */
+.gallery-image {
+
+
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+}
+
+
+
+
+
+.image-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    color: #333;
+    
+    text-align: left;
+
+}
+
+.image-item a {
+    text-decoration: none;
+}
+
+
+.thumb-tags {
+    display: flex;
+    text-align: left;
+    gap: 5px;
+    margin-top: 1px;
+
+
+}
+
+
+.thumb-tag {
+
+    padding: 0px 0px;
+    border-radius: 0px;
+    font-size: 11px;
+    color: #999999;
+    cursor: pointer;
+
+
+}
+
+.thumb-tag:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* width: calc(100% - 100px); */
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 00px;
+    
+
+    
+}
+
+
+/* * {
+    box-sizing: border-box;
+} */
+
+
+
+
+/* RESPONSIVE ******************************************************** */
+
+
+@media (max-width: 1900px) {
+    .image-gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* When the screen is smaller than 992px, show 4 columns */
+@media (max-width: 1700px) {
+    .image-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* When the screen is smaller than 768px, show 2 columns */
+@media (max-width: 1500px) {
+    .image-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* When the screen is smaller than 480px, show 1 column */
+@media (max-width: 1250px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+/*abouttt***********************************************/   
+
+/* Fullscreen About Section */
+.about-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: none;
+    padding: 0px;
+}
+
+/* Text Container */
+.about-content {
+    
+    max-width: 600px;
+    text-align: left; /* Center-align text */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font choice */
+    font-size: 15.6px;
+}
+
+
+p {
+    margin-bottom: 30px;  /* Space between paragraphs */
+    margin-right: 00px;
+}
+
+
+.about-image {
+    width: 650px;
+    height: 937px;
+    margin-bottom: 150px;
+    object-fit: contain;
+    float: left;
+
+    
+}
+
+
+a.highlight-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color */
+}
+
+a.highlight-link:hover {
+    background-color: #ffff99; 
+    
+}
+
+
+/*Navigate*****************************************/
+
+
+.navigate-section {
+    width: 100%;
+     /* Full height of the viewport */
+    
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+    padding: 30px; /* Optional padding */
+    display: none;
+}
+
+/* Text Container */
+.navigate-content {
+    
+    max-width: 600px;
+    text-align: left; /* Center-align text */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font choice */
+    font-size: 13px;
+}
+
+.navigate-p {
+    
+    margin-bottom: 30px;  /* Space between paragraphs */
+    margin-right: 100px;
+}
+
+
+
+
+.bold-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: inherit; /* Keeps the text color consistent with the surrounding text */
+}
+
+.bold-link:hover {
+    background-color: #ffff99;
+}
+
+
+.link-item a {
+    text-decoration: underline; /* Underlines all the links */
+    color: inherit; /* Keeps the text color the same as the surrounding text */
+    
+  }
+  
+  .link-item {
+    display: inline; /* Keeps the spans inline */
+  }
+  
+  .link-item a:hover {
+    
+    text-decoration: underline;
+    background-color: #ffff99;
+  }
+  
+  .grouping-title {
+    margin-bottom: 20px; /* Adds space below "groupings" */
+    
+    
+  }
+
+  .paddingLeft {
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+  /* GIA TO MAIN PICK *****************************************************/
+
+.book-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px; /* Optional padding */
+    display: none;
+}
+
+/* Text Container */
+.book-content {
+    
+    max-width: 700px;
+    text-align: left; /* Center-align text */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font choice */
+    font-size: 13px;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+.actor-style {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    
+}
+
+.botpad {
+    margin-bottom: 100px;
+}
+
+
+
+/* responsive image*****************************/
+
+/* Basic styling for images */
+.responsive-img {
+    max-width: 100%;  /* Ensure the image takes the full width of its container */
+    height: auto;     /* Maintain the aspect ratio */
+    display: block;   /* Removes any extra space below the image */
+    margin: 0 auto;   /* Centers the image in its container */
+    border-radius: 15px;
+  }
+  
+ 
+  
