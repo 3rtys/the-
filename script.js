@@ -109,10 +109,10 @@ const books = [
     // Add the rest of your books as needed, following the correct structure
 ];
 
-// Example: Set the title of a specific book
+// 
 const titleElement = document.getElementById('book-title');
 if (titleElement) {
-    // Set the title of the first book as an example
+    
     titleElement.textContent = books[0].title; 
 }
 
