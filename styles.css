@@ -16,7 +16,7 @@ body {
 
 
 
-/* HEADERRRRRRRR 
+/* HEADER
     *********************************************************************************/
 
 
@@ -169,10 +169,10 @@ body {
 
 @media (max-width: 1024px) {
     .footer {
-        flex-direction: column; /* Stack the elements vertically */
-        align-items: flex-start; /* Align them to the left */
-        padding: 10px; /* Adjust padding for better spacing */
-        font-size: 14px; /* Optional: Reduce font size for smaller screens */
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px; 
+        font-size: 14px; 
     }
 
     .footer a,
@@ -317,21 +317,21 @@ body {
     }
 }
 
-/* When the screen is smaller than 992px, show 4 columns */
+
 @media (max-width: 1700px) {
     .image-gallery {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-/* When the screen is smaller than 768px, show 2 columns */
+
 @media (max-width: 1500px) {
     .image-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* When the screen is smaller than 480px, show 1 column */
+
 @media (max-width: 1250px) {
     .image-gallery {
         grid-template-columns: 1fr;
@@ -343,7 +343,7 @@ body {
 
 
 
-/*abouttt***********************************************/   
+/*about***********************************************/   
 
 /* Fullscreen About Section */
 .about-section {
@@ -359,15 +359,15 @@ body {
 .about-content {
     
     max-width: 600px;
-    text-align: left; /* Center-align text */
+    text-align: left; 
     color: #333; /* Text color */
-    font-family: Arial, sans-serif; /* Font choice */
+    font-family: Arial, sans-serif; 
     font-size: 15.6px;
 }
 
 
 p {
-    margin-bottom: 30px;  /* Space between paragraphs */
+    margin-bottom: 30px;  
     margin-right: 00px;
 }
 
@@ -384,8 +384,8 @@ p {
 
 
 a.highlight-link {
-    text-decoration: none; /* Remove underline */
-    color: black; /* Set text color */
+    text-decoration: none; 
+    color: black; 
 }
 
 a.highlight-link:hover {
@@ -413,15 +413,15 @@ a.highlight-link:hover {
 .navigate-content {
     
     max-width: 600px;
-    text-align: left; /* Center-align text */
-    color: #333; /* Text color */
-    font-family: Arial, sans-serif; /* Font choice */
+    text-align: left; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
     font-size: 13px;
 }
 
 .navigate-p {
     
-    margin-bottom: 30px;  /* Space between paragraphs */
+    margin-bottom: 30px;  
     margin-right: 100px;
 }
 
@@ -431,7 +431,7 @@ a.highlight-link:hover {
 .bold-link {
     font-weight: bold;
     text-decoration: underline;
-    color: inherit; /* Keeps the text color consistent with the surrounding text */
+    color: inherit; 
 }
 
 .bold-link:hover {
@@ -440,13 +440,13 @@ a.highlight-link:hover {
 
 
 .link-item a {
-    text-decoration: underline; /* Underlines all the links */
-    color: inherit; /* Keeps the text color the same as the surrounding text */
+    text-decoration: underline; 
+    color: inherit; 
     
   }
   
   .link-item {
-    display: inline; /* Keeps the spans inline */
+    display: inline; 
   }
   
   .link-item a:hover {
@@ -456,7 +456,7 @@ a.highlight-link:hover {
   }
   
   .grouping-title {
-    margin-bottom: 20px; /* Adds space below "groupings" */
+    margin-bottom: 20px; 
     
     
   }
@@ -515,10 +515,10 @@ a.highlight-link:hover {
 
 /* Basic styling for images */
 .responsive-img {
-    max-width: 100%;  /* Ensure the image takes the full width of its container */
-    height: auto;     /* Maintain the aspect ratio */
-    display: block;   /* Removes any extra space below the image */
-    margin: 0 auto;   /* Centers the image in its container */
+    max-width: 100%; 
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
     border-radius: 15px;
   }
   
